@@ -1,0 +1,938 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0E0F0F;
+    border-radius: 0px;
+    height: 52px;
+}
+
+.header .tellus {
+    display: flex;
+    column-gap: 24px;
+    /* margin-top: 16px; */
+    /* margin-bottom: 19px; */
+    margin-left: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .mln {
+    /* font-family: 'Roboto'; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+}
+
+.header .learnMore {
+    background-image: url(./img/greenFon.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 187px;
+    height: 52px;
+}
+.header .learnMore .learn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: -30px;
+    column-gap: 5px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+
+
+
+.TURN-YOUR {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 183px;
+    column-gap: 74px;
+}
+
+.TURN-YOUR .leftSide {
+    /* width: 50%; */
+    /* margin-left: 40px; */
+}
+
+.TURN-YOUR .leftSide h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 80px;
+    letter-spacing: 3.2px;
+    color: #0E0F0F;
+}
+
+.TURN-YOUR .leftSide .earn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 0.48px;
+    color: #0E0F0F;
+
+    margin-top: 69px;
+    margin-bottom: 162px;
+}
+
+.TURN-YOUR .leftSide .number {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    color: #0E0F0F;
+}
+
+.TURN-YOUR .leftSide input {
+    border: 1px solid rgba(14, 15, 15, 0.24);
+    border-radius: 8px;
+    padding-left: 50px;
+    width: 560px;
+    height: 68px;
+    margin-top: 20px;
+}
+
+
+.TURN-YOUR .rightSide  {
+    width: 560px;
+    height: 979px;
+}
+
+
+
+.TURLAR {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 178px;
+    background: #D2D9E1;
+    border-radius: 0px;
+}
+
+
+
+.YOUR-SAVINGS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    margin-top: 120px;
+}
+
+.YOUR-SAVINGS .leftSide {
+    width: 50%;
+}
+
+.YOUR-SAVINGS .leftSide .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 2.56px;
+    color: #0E0F0F;
+
+    
+}
+.YOUR-SAVINGS .leftSide .text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.36px;
+    color: #0E0F0F;
+
+    margin-top: 31px;
+    margin-bottom: 62px;
+    height: 51px;
+    width: 610px;
+}
+
+.YOUR-SAVINGS .leftSide .line {
+    width: 644px;
+    height: 1px;
+    background: rgba(14, 15, 15, 0.24);
+    border-radius: 0px;
+}
+
+.YOUR-SAVINGS .leftSide .list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 1.92px;
+    color: #0E0F0F;
+
+    margin-top: 20px;
+}
+.YOUR-SAVINGS .leftSide .listItem {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.36px;
+    color: #0E0F0F;
+
+    margin-top: 19px;
+    margin-bottom: 36px;
+}
+
+.YOUR-SAVINGS .leftSide .button {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    color: #0E0F0F;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 17px;
+    margin-top: 40px;
+    padding: 20px 25px;
+    background: #FFFFFF;
+    border: 1px solid rgba(14, 15, 15, 0.24);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 1s;
+}
+.YOUR-SAVINGS .leftSide .button:hover {
+    background-color: lightblue;
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.YOUR-SAVINGS .rightSide {
+    width: 50%;
+}
+
+
+
+.REIMAGINE {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    background: #D2D9E1;
+    border-radius: 0px;
+    padding: 120px 0;
+}
+
+.REIMAGINE .rightSide .you {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    color: #0E0F0F;
+}
+
+.REIMAGINE .rightSide .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 64px;
+    letter-spacing: 2.56px;
+    color: #0E0F0F;
+    
+    width: 430px;
+    height: 192px;
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+
+.REIMAGINE .rightSide .text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.36px;
+    color: #0E0F0F;
+    
+    width: 516px;
+}
+
+.REIMAGINE .rightSide .stars {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 95px;
+    margin-bottom: 20px;
+}
+
+.REIMAGINE .rightSide .trust {
+    display: flex;
+    column-gap: 8px;
+}
+
+
+.INFORMATION {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.INFORMATION .Block {
+    width: 357px;
+    height: 332px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 0 32px;
+    padding-top: 34px;
+}
+.INFORMATION .Block .text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #0E0F0F;
+}
+.INFORMATION .Block h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    color: #0E0F0F;
+}
+
+.INFORMATION .Block .afterOne {
+    margin-top: 17px;
+}
+.INFORMATION .Block .afterTwo {
+    margin-top: 50px;
+}
+.INFORMATION .Block .afterThree {
+    margin-top: 17px;
+}
+
+.INFORMATION .Block .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.28px;
+    color: #0E0F0F;
+    
+    margin-top: 5px;
+}
+
+
+.Friendly {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.32px;
+    color: #0E0F0F;
+}
+
+
+
+.DEPOSIT-TODAY {
+    text-align: center;
+    margin-top: 61px;
+    padding: 120px 0;
+    background-image: url(./img/IMAGEdeposit.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.DEPOSIT-TODAY .Deposit {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 2.56px;
+    color: #0E0F0F;
+}
+
+.DEPOSIT-TODAY .Drag {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #0E0F0F;
+    
+    margin-top: 29px;
+    margin-bottom: 838px;
+}
+
+.DEPOSIT-TODAY .Above {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    color: #0E0F0F;
+
+    margin-bottom: 57px;
+}
+
+.DEPOSIT-TODAY .SAVE-more-faster {
+    background: #0E0F0F;
+    border-radius: 24px;
+    width: 1500px;
+    padding: 55px 0;
+    margin: 0 40px;
+
+}
+.DEPOSIT-TODAY .SAVE-more-faster h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+}
+.DEPOSIT-TODAY .SAVE-more-faster p {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+    padding-top: 44px;
+    padding-bottom: 24px;
+}
+.DEPOSIT-TODAY .SAVE-more-faster input {
+    padding-left: 30px;
+    width: 440px;
+    height: 68px;
+    color: white;
+    background-color: #0E0F0F;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 8px;
+}
+
+
+
+.BUILT-FORHUMANS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 195px;
+    padding-bottom: 200px;
+    column-gap: 91px;
+}
+
+.BUILT-FORHUMANS .leftSide p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    color: #0E0F0F;
+    
+    width: 478px;
+    height: 21px;
+}
+
+.BUILT-FORHUMANS .rightSide .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 2.56px;
+    color: #0E0F0F;
+}
+
+.BUILT-FORHUMANS .rightSide .text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.36px;
+    color: #0E0F0F;
+    
+    width: 546px;
+    height: 101px;
+    margin-top: 95px;
+    margin-bottom: 21px;
+}
+
+.BUILT-FORHUMANS .rightSide .lineTwo {
+    background: rgba(14, 15, 15, 0.24);
+    border-radius: 0px;
+    width: 548px;
+    height: 1px;
+}
+
+.BUILT-FORHUMANS .rightSide .list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 1.92px;
+    color: #0E0F0F;
+    
+    margin-top: 20px;
+}
+
+.BUILT-FORHUMANS .rightSide .listItem {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.36px;
+    color: #0E0F0F;
+    
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.BUILT-FORHUMANS .rightSide .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 17px;
+    margin-top: 40px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(14, 15, 15, 0.24);
+    border-radius: 100px;
+    width: 234px;
+    height: 54px;
+    
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    color: #0E0F0F;
+    
+    transition: 1s;
+    cursor: pointer;
+}
+.BUILT-FORHUMANS .rightSide .button:hover {
+    background-color: gray;
+    font-size: 15px;
+    transition: 1s;
+}
+
+
+
+.HOW-DOES-TELLUS-COMPARE {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background: #D2D9E1;
+    column-gap: 65px;
+    padding: 200px 0;
+}
+
+.HOW-DOES-TELLUS-COMPARE .leftSide h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 64px;
+    letter-spacing: 2.56px;
+    color: #0E0F0F;
+    
+    width: 370px;
+}
+
+.HOW-DOES-TELLUS-COMPARE .leftSide p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.48px;
+    color: #0E0F0F;
+    
+    width: 511px;
+    height: 101px;
+    margin-top: 23px;
+}
+
+.HOW-DOES-TELLUS-COMPARE .rightSide .blackFon {
+    background: #0E0F0F;
+    color: white;
+    border-radius: 24px;
+    width: 544px;
+    padding: 47px 48px;
+}
+
+.HOW-DOES-TELLUS-COMPARE .rightSide .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.96px;
+    color: #FFFFFF;
+}
+
+.HOW-DOES-TELLUS-COMPARE .rightSide .biggest {
+    margin-top: 33px;
+    margin-bottom: 54px;
+}
+.HOW-DOES-TELLUS-COMPARE .rightSide .dollar {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    color: #FFFFFF;
+    
+    margin-bottom: 16px;
+}
+.HOW-DOES-TELLUS-COMPARE .rightSide .qalin-chiziq-KATTA {
+    width: 448px;
+    height: 6px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.HOW-DOES-TELLUS-COMPARE .rightSide .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 53px;
+}
+.HOW-DOES-TELLUS-COMPARE .rightSide p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    
+    margin-bottom: 15px;
+}
+.HOW-DOES-TELLUS-COMPARE .rightSide .qalin-chiziq-ONE {
+    width: 72px;
+    height: 6px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+.HOW-DOES-TELLUS-COMPARE .rightSide .qalin-chiziq-TWO {
+    width: 9px;
+    height: 6px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+.HOW-DOES-TELLUS-COMPARE .rightSide .qalin-chiziq-THREE {
+    width: 18px;
+    height: 6px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+.HOW-DOES-TELLUS-COMPARE .rightSide .qalin-chiziq-FOUR {
+    width: 9px;
+    height: 6px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+.HOW-DOES-TELLUS-COMPARE .rightSide .qalin-chiziq-FIVE {
+    width: 9px;
+    height: 6px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+.HOW-DOES-TELLUS-COMPARE .rightSide .qalin-chiziq-SIX {
+    width: 9px;
+    height: 6px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+.HOW-DOES-TELLUS-COMPARE .rightSide .qalin-chiziq-SEVEN {
+    width: 9px;
+    height: 6px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+.HOW-DOES-TELLUS-COMPARE .rightSide .qalin-chiziq-EIGHT {
+    width: 9px;
+    height: 6px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.HOW-DOES-TELLUS-COMPARE .rightSide .Above {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: #B3B3B3;
+}
+
+.HOW-DOES-TELLUS-COMPARE .rightSide .Sound {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.32px;
+    color: #0E0F0F;
+    
+    margin-top: 15px;
+}
+
+
+
+.FREQUENTLY-ASKED {
+    padding: 200px 40px; 
+}
+
+.FREQUENTLY-ASKED .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 2.56px;
+    color: #0E0F0F;
+
+    margin-bottom: 62px;
+    line-height: 90px;
+}
+
+.FREQUENTLY-ASKED .question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.FREQUENTLY-ASKED .question p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+letter-spacing: 0.96px;
+color: #0E0F0F;
+}
+.FREQUENTLY-ASKED .question .button {
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(14, 15, 15, 0.25);
+    font-size: 30px;
+    background-color: white;
+}
+
+.FREQUENTLY-ASKED .uzun-chiziq {
+    /* width: 1120px; */
+    height: 1px;
+    background: rgba(14, 15, 15, 0.25);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.FREQUENTLY-ASKED .buttonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FREQUENTLY-ASKED .buttonDiv .button {
+    width: 209px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid rgba(14, 15, 15, 0.24);
+    border-radius: 100px;
+    margin-top: 71px;
+    cursor: pointer;
+    transition: 1s;
+}
+.FREQUENTLY-ASKED .buttonDiv .button:hover {
+    background-color: lightskyblue;
+    transition: 1s;
+}
+
+
+
+.PURPLE {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    column-gap: 192px;
+    padding: 130px 0;
+
+    background-image: url(./img/purple.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.PURPLE .leftSide h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+    
+    width: 350px;
+}
+
+.PURPLE .rightSide p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+    
+    width: 520px;
+}
+
+.PURPLE .rightSide .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 84px;
+    
+    background: #FFFFFF;
+    border-radius: 100px;
+    
+    width: 159px;
+    height: 20px;
+    border: none;
+    
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    color: #0E0F0F;
+}
+
+
+
+.footer {
+    background: #0E0F0F;
+    border-radius: 0px;
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 0 45px;
+    padding-top: 209px;
+    padding-bottom: 91px;
+}
+
+.footer .link {
+    margin-top: 31px;
+    margin-bottom: 25px;}
+
+
+
+.footer .linkItemFirst {
+    font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 1.12px;
+text-transform: uppercase;
+color: #D2D9E1;
+
+}
+
+.footer .linkItem {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+text-align: center;
+color: #D2D9E1;
+}
+
+
+.footer .tarmoqlar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+
+
+
+
