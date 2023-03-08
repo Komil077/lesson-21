@@ -74,12 +74,6 @@ body {
     margin-top: 183px;
     column-gap: 74px;
 }
-
-.TURN-YOUR .leftSide {
-    /* width: 50%; */
-    /* margin-left: 40px; */
-}
-
 .TURN-YOUR .leftSide .title {
     font-family: 'Roboto';
     font-style: normal;
@@ -139,9 +133,7 @@ body {
     background: #D2D9E1;
     border-radius: 0px;
 }
-.TURLAR img {
 
-}
 
 
 
@@ -153,9 +145,7 @@ body {
     margin-top: 120px;
 }
 
-.YOUR-SAVINGS .leftSide {
-    /* width: 50%; */
-}
+
 
 .YOUR-SAVINGS .leftSide .title {
     font-family: 'Roboto';
@@ -243,9 +233,7 @@ body {
     transition: 1s;
 }
 
-.YOUR-SAVINGS .rightSide {
-    /* width: 50%; */
-}
+
 
 
 
@@ -897,7 +885,7 @@ color: #0E0F0F;
 .footer {
     background: #0E0F0F;
     border-radius: 0px;
-
+    
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
@@ -908,31 +896,31 @@ color: #0E0F0F;
 
 .footer .link {
     margin-top: 31px;
-    margin-bottom: 25px;}
-
+    margin-bottom: 25px;
+}
 
 
 .footer .linkItemFirst {
     font-family: 'Chivo';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-letter-spacing: 1.12px;
-text-transform: uppercase;
-color: #D2D9E1;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    color: #D2D9E1;
+    
 }
 
 .footer .linkItem {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 25px;
-text-align: center;
-color: #D2D9E1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #D2D9E1;
 }
 
 
