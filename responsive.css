@@ -1,0 +1,209 @@
+@media(max-width:600px) {
+    .TURN-YOUR {
+        display: block;
+        text-align: center;
+    }
+    .TURN-YOUR .leftSide .title {
+        font-size: 50px;
+    }
+.TURN-YOUR .leftSide input {
+        margin-bottom: 50px;
+    }
+.TURN-YOUR .rightSide img  {
+    width: 300px;
+    height: 600px;
+    }
+
+    .TURLAR {
+        height: 100px;
+    }
+    .TURLAR img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        margin-left: 15px;
+    }
+
+    .YOUR-SAVINGS {
+        display: block;
+        text-align: center;
+        padding:  0 20px;
+    }
+    .YOUR-SAVINGS .leftSide .title {
+        font-size: 45px;
+    }
+    .YOUR-SAVINGS .leftSide .text {
+        font-size: 15px;
+        width: 100%;
+    }
+    .YOUR-SAVINGS .leftSide .line {
+        /* width: 500px; */
+        height: 1px;
+    }
+    .YOUR-SAVINGS .leftSide .list {
+        font-size: 33px;
+    }
+    .YOUR-SAVINGS .leftSide .listItem {
+        font-size: 14px;
+    }
+    .YOUR-SAVINGS .leftSide .button {
+        width: 100%;
+        background-color: lightblue;
+        margin-bottom: 50px;
+    }
+    .YOUR-SAVINGS .rightSide img {
+        width: 300px;
+        height: 600px;
+    }
+
+    .REIMAGINE {
+        display: block;
+        text-align: center;
+        padding: 120px 20px;
+    }
+    .REIMAGINE .rightSide .title {
+        width: 100%;
+    }
+    .REIMAGINE .rightSide .text {
+        width: 100%;
+    }
+    .REIMAGINE .rightSide .stars {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .REIMAGINE .rightSide .trust {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .INFORMATION {
+        padding-top: 30px;
+        padding: 30px;
+    }
+    .INFORMATION .Block {
+        padding: 0;
+    }
+    .INFORMATION .Block .text {
+        font-size: 16px;
+    }
+
+    .DEPOSIT-TODAY {
+        display: block;
+    }
+    .DEPOSIT-TODAY .Deposit {
+        font-size: 35px;
+    }
+    .DEPOSIT-TODAY .Drag {
+        font-size: 14px;
+        margin-bottom: 550px;
+    }
+    .DEPOSIT-TODAY .SAVE-more-faster {
+        width: 95%;
+        margin:  0 20px;
+    }
+
+    .BUILT-FORHUMANS {
+        display: block;
+        text-align: center;
+        padding:  20px;
+    }
+    .BUILT-FORHUMANS .leftSide p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .BUILT-FORHUMANS .rightSide .title {
+        font-size: 55px;
+        margin-top: 80px;
+    }
+    .BUILT-FORHUMANS .rightSide .text {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .BUILT-FORHUMANS .rightSide .lineTwo {
+        width: 100%;
+    }
+    .BUILT-FORHUMANS .rightSide .button {
+        width: 100%;
+        margin-bottom: 200px;
+    }
+
+    .HOW-DOES-TELLUS-COMPARE {
+        display: block;
+        text-align: center;
+    }
+    .HOW-DOES-TELLUS-COMPARE .leftSide h1 {
+        font-size: 45px;
+        width: 100%;
+        padding: 40px;
+    }
+    .HOW-DOES-TELLUS-COMPARE .leftSide p {
+        font-size: 20px;
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 70px;
+    }
+    .HOW-DOES-TELLUS-COMPARE .rightSide .blackFon {
+        width: 90%;
+        margin: 0 25px;
+    }
+
+    .FREQUENTLY-ASKED {
+        padding: 25px;
+    }
+    .FREQUENTLY-ASKED .title {
+        font-size: 40px;
+    }
+    .FREQUENTLY-ASKED .question p {
+        font-size: 15px;
+    }
+    .FREQUENTLY-ASKED .question .button {
+        font-size: 25px;
+        width: 35px;
+        height: 35px;
+    }
+    .FREQUENTLY-ASKED .buttonDiv .button {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .PURPLE {
+        display: block;
+        text-align: center;
+        padding: 130px 30px;
+    }
+    .PURPLE .leftSide h1 {
+        width: 100%;
+    }
+    .PURPLE .rightSide p {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .PURPLE .rightSide .button {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .footer {
+    padding: 0;
+    padding: 30px 25px;
+    line-height: 30px;
+    column-gap: 40px;
+    }
+    .footer .link {
+        margin: 0;
+    }
+    .footer .linkItemFirst {
+        font-size: 12px;
+    }
+    .footer .linkItem {
+        font-size: 15px;
+    }
+    .footer .tarmoqlar {
+        margin: 0;
+        column-gap: 5px;
+    }
+}
